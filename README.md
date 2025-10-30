@@ -175,15 +175,15 @@ Dashboard capabilities:
 
 - Dashboard overview chart
 
-  ![Sample Dashboard](outputs/charts/dashboard_bahawal_pur_20251030_044539.png)
+  ![Sample Dashboard](outputs/charts/dashboard_sahiwal_20251030_044422.png)
 
 - Pest vs ETL comparison
 
-  ![Pest Comparison](outputs/charts/pest_comparison_bahawal_pur_20251030_044538.png)
+  ![Pest Comparison](outputs/charts/pest_comparison_sahiwal_20251030_044422.png)
 
 - Generated PDF report (downloadable example)
 
-  [`outputs/reports/pest_report_bahawal_pur_20251030_044540.pdf`](outputs/reports/pest_report_bahawal_pur_20251030_044540.pdf)
+  [`outputs/reports/pest_report_sahiwal_20251030_044422.pdf`](outputs/reports/pest_report_sahiwal_20251030_044422.pdf)
 
 ---
 
