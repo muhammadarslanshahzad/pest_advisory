@@ -175,11 +175,11 @@ Dashboard capabilities:
 
 - Dashboard overview chart
 
-  ![Sample Dashboard](outputs/charts/dashboard_layyah_20251030_041827.png)
+  ![Sample Dashboard](outputs/charts/dashboard_bahawal_pur_20251030_044539.png)
 
 - Pest vs ETL comparison
 
-  ![Pest Comparison](outputs/charts/pest_comparison_layyah_20251030_041826.png)
+  ![Pest Comparison](outputs/charts/pest_comparison_bahawal_pur_20251030_044538.png)
 
 - Generated PDF report (downloadable example)
 
