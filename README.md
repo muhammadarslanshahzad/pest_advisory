@@ -62,7 +62,7 @@ All outputs land under outputs/ and can be explored via Streamlit dashboard.py
 | `src/encoder/` | Orchestrates severity scoring, LLM prompts, chart/report generation. |
 | `src/visualization/` | Matplotlib/Seaborn visual components (`PestVisualizer`). |
 | `src/reporting/` | PDF assembly via Matplotlib (`PestReportGenerator`). |
-| `frontend/` & `dashboard.py` | Streamlit dashboard to browse analyses, charts, and reports. |
+| `dashboard.py` | Streamlit dashboard to browse analyses, charts, and reports. |
 | `outputs/` | Persisted JSON, PNG charts, and PDF reports from sample/batch runs. |
 | `run_full_batch.py` | Convenience script to run the encoder across an entire cleaned dataset. |
 | `tests/` | Utilities for smoke-testing the encoder with representative samples. |
