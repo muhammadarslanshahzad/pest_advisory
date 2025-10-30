@@ -183,7 +183,7 @@ Dashboard capabilities:
 
 - Generated PDF report (downloadable example)
 
-  [`outputs/reports/pest_report_layyah_20251030_044907.pdf`](outputs/reports/pest_report_layyah_20251030_044907.pdf)
+  [`outputs/reports/pest_report_bahawal_pur_20251030_044540.pdf`](outputs/reports/pest_report_bahawal_pur_20251030_044540.pdf)
 
 ---
 
