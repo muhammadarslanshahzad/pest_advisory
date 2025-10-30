@@ -1,0 +1,127 @@
+{
+  "tehsil": "RAJAN PUR",
+  "timeframe": "1 WEEK MAY 2022",
+  "context": {
+    "tehsil": "RAJAN PUR",
+    "timeframe": "1 WEEK MAY 2022",
+    "total_spots": 27,
+    "total_area": 77.0,
+    "severity_score": 0.0,
+    "severity_level": "LOW",
+    "threat_pests": [],
+    "pest_pressure_per_acre": 0.0,
+    "pest_data": {
+      "Whitefly": {
+        "count": 0.0,
+        "threshold": 10,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Jassid": {
+        "count": 0.0,
+        "threshold": 5,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Thrips": {
+        "count": 0.0,
+        "threshold": 20,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Mealy Bug": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Mites": {
+        "count": 0.0,
+        "threshold": 5,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Aphids": {
+        "count": 0.0,
+        "threshold": 10,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Dusky Cotton Bug": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Spotted Bollworm": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Pink Bollworm": {
+        "count": 0.0,
+        "threshold": 5,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "American Bollworm": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Army Worm": {
+        "count": 0.0,
+        "threshold": 3,
+        "status": "BELOW",
+        "percentage_above": 0
+      }
+    },
+    "disease_data": {
+      "CLCuV": {
+        "spot_infection": 0.0,
+        "area_infection": 0.0
+      },
+      "Wilt": {
+        "spot_infection": 0.0,
+        "area_infection": 0.0
+      }
+    }
+  },
+  "encoder_analysis": {
+    "risk_level": "LOW",
+    "primary_threats": [],
+    "secondary_concerns": [],
+    "action_urgency": "MONITOR",
+    "economic_impact": "0% estimated yield loss",
+    "key_insights": [
+      "Pest populations are extremely low across all species, indicating a favorable situation for cotton crops.",
+      "Disease pressure is also negligible, with no reported infections of CLCuV or Wilt.",
+      "The overall risk level remains LOW due to the absence of any significant pest or disease threats."
+    ],
+    "farmer_advice": [
+      "Continue monitoring fields regularly and maintain good agricultural practices (GAPs) to ensure this favorable situation persists.",
+      "No chemical applications are currently recommended, but be prepared to respond quickly if pest populations were to surge in the future.",
+      "Coordinate with local extension services or experts for any questions or concerns about IPM strategies or disease management."
+    ],
+    "_fallback": false
+  },
+  "metadata": {
+    "timestamp": "2025-10-30T04:49:37.127931",
+    "model": "llama3:8b",
+    "temperature": 0.1,
+    "total_spots": 27,
+    "total_area": 77.0,
+    "severity_score": 0.0,
+    "severity_level": "LOW"
+  },
+  "charts": {
+    "pest_comparison": "outputs/charts/pest_comparison_rajan_pur_20251030_044937.png",
+    "severity_gauge": "outputs/charts/severity_gauge_rajan_pur_20251030_044937.png",
+    "threat_pests": "outputs/charts/threat_pests_rajan_pur_20251030_044937.png",
+    "disease": "outputs/charts/disease_rates_rajan_pur_20251030_044938.png",
+    "dashboard": "outputs/charts/dashboard_rajan_pur_20251030_044938.png"
+  },
+  "report_path": "outputs/reports/pest_report_rajan_pur_20251030_044938.pdf"
+}

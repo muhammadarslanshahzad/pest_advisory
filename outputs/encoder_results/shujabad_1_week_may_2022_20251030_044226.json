@@ -1,0 +1,139 @@
+{
+  "tehsil": "SHUJABAD",
+  "timeframe": "1 WEEK MAY 2022",
+  "context": {
+    "tehsil": "SHUJABAD",
+    "timeframe": "1 WEEK MAY 2022",
+    "total_spots": 15,
+    "total_area": 62.0,
+    "severity_score": 2.47,
+    "severity_level": "LOW",
+    "threat_pests": [
+      {
+        "name": "Army Worm",
+        "column": "ARMY WORM(ABOVE ETL)",
+        "count": 6.7,
+        "threshold": 3,
+        "multiplier": 2.23,
+        "percentage_above": 123.33333333333334,
+        "severity": "HIGH"
+      }
+    ],
+    "pest_pressure_per_acre": 0.11,
+    "pest_data": {
+      "Whitefly": {
+        "count": 0.0,
+        "threshold": 10,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Jassid": {
+        "count": 0.0,
+        "threshold": 5,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Thrips": {
+        "count": 0.0,
+        "threshold": 20,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Mealy Bug": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Mites": {
+        "count": 0.0,
+        "threshold": 5,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Aphids": {
+        "count": 0.0,
+        "threshold": 10,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Dusky Cotton Bug": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Spotted Bollworm": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Pink Bollworm": {
+        "count": 0.0,
+        "threshold": 5,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "American Bollworm": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Army Worm": {
+        "count": 6.7,
+        "threshold": 3,
+        "status": "ABOVE",
+        "percentage_above": 123.33333333333334
+      }
+    },
+    "disease_data": {
+      "CLCuV": {
+        "spot_infection": 0.0,
+        "area_infection": 0.0
+      },
+      "Wilt": {
+        "spot_infection": 0.0,
+        "area_infection": 0.0
+      }
+    }
+  },
+  "encoder_analysis": {
+    "risk_level": "LOW",
+    "primary_threats": [
+      "Army Worm"
+    ],
+    "secondary_concerns": [],
+    "action_urgency": "THIS_WEEK",
+    "economic_impact": "Estimated yield loss: 0-5%",
+    "key_insights": [
+      "Pest population trends indicate a significant threat from Army Worm, which is above the ETL threshold.",
+      "Disease pressure remains low, with no infected spots or area reported.",
+      "The overall economic risk is moderate due to the potential yield loss from Army Worm infestation."
+    ],
+    "farmer_advice": [
+      "Monitor your cotton fields closely for Army Worm infestations and take action if necessary. The current severity level is LOW, but prompt intervention can prevent further damage.",
+      "Consider applying insecticides or biological control methods to manage the Army Worm population. Follow the recommended ETL thresholds and product labels for effective management.",
+      "Coordinate with local agricultural experts and extension services to stay updated on best practices for managing Army Worm infestations in your area."
+    ],
+    "_fallback": false
+  },
+  "metadata": {
+    "timestamp": "2025-10-30T04:42:20.599189",
+    "model": "llama3:8b",
+    "temperature": 0.1,
+    "total_spots": 15,
+    "total_area": 62.0,
+    "severity_score": 2.47,
+    "severity_level": "LOW"
+  },
+  "charts": {
+    "pest_comparison": "outputs/charts/pest_comparison_shujabad_20251030_044220.png",
+    "severity_gauge": "outputs/charts/severity_gauge_shujabad_20251030_044221.png",
+    "threat_pests": "outputs/charts/threat_pests_shujabad_20251030_044221.png",
+    "disease": "outputs/charts/disease_rates_shujabad_20251030_044221.png",
+    "dashboard": "outputs/charts/dashboard_shujabad_20251030_044222.png"
+  },
+  "report_path": "outputs/reports/pest_report_shujabad_20251030_044222.pdf"
+}

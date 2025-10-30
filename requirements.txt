@@ -1,0 +1,13 @@
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+requests
+fastapi
+uvicorn
+langchain
+langchain-community
+langchain-ollama
+ipykernel
+streamlit

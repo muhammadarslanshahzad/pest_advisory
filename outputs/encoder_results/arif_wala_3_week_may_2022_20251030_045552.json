@@ -1,0 +1,151 @@
+{
+  "tehsil": "ARIF WALA",
+  "timeframe": "3 WEEK MAY 2022",
+  "context": {
+    "tehsil": "ARIF WALA",
+    "timeframe": "3 WEEK MAY 2022",
+    "total_spots": 17,
+    "total_area": 58.0,
+    "severity_score": 6.98,
+    "severity_level": "MEDIUM",
+    "threat_pests": [
+      {
+        "name": "Dusky Cotton Bug",
+        "column": "DUSKY COTTON BUG(ABOVE ETL)",
+        "count": 5.9,
+        "threshold": 2,
+        "multiplier": 2.95,
+        "percentage_above": 195.00000000000003,
+        "severity": "HIGH"
+      },
+      {
+        "name": "Jassid",
+        "column": "JASSID(ABOVE ETL)",
+        "count": 11.8,
+        "threshold": 5,
+        "multiplier": 2.36,
+        "percentage_above": 136.0,
+        "severity": "HIGH"
+      }
+    ],
+    "pest_pressure_per_acre": 0.51,
+    "pest_data": {
+      "Whitefly": {
+        "count": 11.8,
+        "threshold": 10,
+        "status": "ABOVE",
+        "percentage_above": 18.000000000000007
+      },
+      "Jassid": {
+        "count": 11.8,
+        "threshold": 5,
+        "status": "ABOVE",
+        "percentage_above": 136.0
+      },
+      "Thrips": {
+        "count": 0.0,
+        "threshold": 20,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Mealy Bug": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Mites": {
+        "count": 0.0,
+        "threshold": 5,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Aphids": {
+        "count": 0.0,
+        "threshold": 10,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Dusky Cotton Bug": {
+        "count": 5.9,
+        "threshold": 2,
+        "status": "ABOVE",
+        "percentage_above": 195.00000000000003
+      },
+      "Spotted Bollworm": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Pink Bollworm": {
+        "count": 0.0,
+        "threshold": 5,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "American Bollworm": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Army Worm": {
+        "count": 0.0,
+        "threshold": 3,
+        "status": "BELOW",
+        "percentage_above": 0
+      }
+    },
+    "disease_data": {
+      "CLCuV": {
+        "spot_infection": 0.0,
+        "area_infection": 0.0
+      },
+      "Wilt": {
+        "spot_infection": 0.0,
+        "area_infection": 0.0
+      }
+    }
+  },
+  "encoder_analysis": {
+    "risk_level": "HIGH",
+    "primary_threats": [
+      "Dusky Cotton Bug",
+      "Jassid"
+    ],
+    "secondary_concerns": [
+      "Whitefly"
+    ],
+    "action_urgency": "WITHIN_48H",
+    "economic_impact": "Estimated yield loss: 20-30%",
+    "key_insights": [
+      "Pest population trends indicate a significant increase in Dusky Cotton Bug and Jassid populations, posing a high risk to cotton yields.",
+      "Disease pressure is currently low, with no reported infections of CLCuV or Wilt.",
+      "The economic impact of these pests could result in estimated yield losses of 20-30% if left unchecked."
+    ],
+    "farmer_advice": [
+      "Take immediate action to control Dusky Cotton Bug and Jassid populations by applying targeted pesticides and maintaining good field hygiene.",
+      "Consider using Integrated Pest Management (IPM) strategies, such as introducing natural predators or beneficial insects, to reduce chemical reliance and minimize environmental impact.",
+      "Monitor fields closely for any signs of pest resurgence and coordinate with local agricultural experts to develop a comprehensive management plan."
+    ],
+    "_fallback": false
+  },
+  "metadata": {
+    "timestamp": "2025-10-30T04:55:45.755984",
+    "model": "llama3:8b",
+    "temperature": 0.1,
+    "total_spots": 17,
+    "total_area": 58.0,
+    "severity_score": 6.98,
+    "severity_level": "MEDIUM"
+  },
+  "charts": {
+    "pest_comparison": "outputs/charts/pest_comparison_arif_wala_20251030_045545.png",
+    "severity_gauge": "outputs/charts/severity_gauge_arif_wala_20251030_045546.png",
+    "threat_pests": "outputs/charts/threat_pests_arif_wala_20251030_045546.png",
+    "disease": "outputs/charts/disease_rates_arif_wala_20251030_045546.png",
+    "dashboard": "outputs/charts/dashboard_arif_wala_20251030_045547.png"
+  },
+  "report_path": "outputs/reports/pest_report_arif_wala_20251030_045547.pdf"
+}

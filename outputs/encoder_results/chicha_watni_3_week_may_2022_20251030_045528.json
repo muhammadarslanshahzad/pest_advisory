@@ -1,0 +1,141 @@
+{
+  "tehsil": "CHICHA WATNI",
+  "timeframe": "3 WEEK MAY 2022",
+  "context": {
+    "tehsil": "CHICHA WATNI",
+    "timeframe": "3 WEEK MAY 2022",
+    "total_spots": 35,
+    "total_area": 193.0,
+    "severity_score": 4.01,
+    "severity_level": "LOW",
+    "threat_pests": [
+      {
+        "name": "Army Worm",
+        "column": "ARMY WORM(ABOVE ETL)",
+        "count": 8.6,
+        "threshold": 3,
+        "multiplier": 2.87,
+        "percentage_above": 186.66666666666666,
+        "severity": "HIGH"
+      }
+    ],
+    "pest_pressure_per_acre": 0.13,
+    "pest_data": {
+      "Whitefly": {
+        "count": 11.4,
+        "threshold": 10,
+        "status": "ABOVE",
+        "percentage_above": 14.000000000000004
+      },
+      "Jassid": {
+        "count": 0.0,
+        "threshold": 5,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Thrips": {
+        "count": 5.7,
+        "threshold": 20,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Mealy Bug": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Mites": {
+        "count": 0.0,
+        "threshold": 5,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Aphids": {
+        "count": 0.0,
+        "threshold": 10,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Dusky Cotton Bug": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Spotted Bollworm": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Pink Bollworm": {
+        "count": 0.0,
+        "threshold": 5,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "American Bollworm": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Army Worm": {
+        "count": 8.6,
+        "threshold": 3,
+        "status": "ABOVE",
+        "percentage_above": 186.66666666666666
+      }
+    },
+    "disease_data": {
+      "CLCuV": {
+        "spot_infection": 0.0,
+        "area_infection": 0.0
+      },
+      "Wilt": {
+        "spot_infection": 0.0,
+        "area_infection": 0.0
+      }
+    }
+  },
+  "encoder_analysis": {
+    "risk_level": "MEDIUM",
+    "primary_threats": [
+      "Army Worm"
+    ],
+    "secondary_concerns": [
+      "Whitefly"
+    ],
+    "action_urgency": "THIS_WEEK",
+    "economic_impact": "Estimated yield loss: 5-10%",
+    "key_insights": [
+      "The high population of Army Worm (187% above ETL) indicates a significant threat to cotton yields.",
+      "Disease pressure is currently low, with no reported infections in the surveyed area.",
+      "The overall severity score of 4.01/30 suggests a moderate risk to cotton crops."
+    ],
+    "farmer_advice": [
+      "Monitor your fields closely for Army Worm infestations and take action if necessary to prevent further damage.",
+      "Consider applying insecticides or using biological control methods to manage the Army Worm population, as chemical treatments may not be effective at this stage.",
+      "Coordinate with local agricultural experts to develop an Integrated Pest Management (IPM) strategy that addresses the Army Worm threat."
+    ],
+    "_fallback": false
+  },
+  "metadata": {
+    "timestamp": "2025-10-30T04:55:22.981143",
+    "model": "llama3:8b",
+    "temperature": 0.1,
+    "total_spots": 35,
+    "total_area": 193.0,
+    "severity_score": 4.01,
+    "severity_level": "LOW"
+  },
+  "charts": {
+    "pest_comparison": "outputs/charts/pest_comparison_chicha_watni_20251030_045523.png",
+    "severity_gauge": "outputs/charts/severity_gauge_chicha_watni_20251030_045523.png",
+    "threat_pests": "outputs/charts/threat_pests_chicha_watni_20251030_045523.png",
+    "disease": "outputs/charts/disease_rates_chicha_watni_20251030_045523.png",
+    "dashboard": "outputs/charts/dashboard_chicha_watni_20251030_045524.png"
+  },
+  "report_path": "outputs/reports/pest_report_chicha_watni_20251030_045524.pdf"
+}

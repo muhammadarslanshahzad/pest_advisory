@@ -1,0 +1,131 @@
+{
+  "tehsil": "KEHROR PACCA",
+  "timeframe": "3 WEEK MAY 2022",
+  "context": {
+    "tehsil": "KEHROR PACCA",
+    "timeframe": "3 WEEK MAY 2022",
+    "total_spots": 43,
+    "total_area": 264.0,
+    "severity_score": 0.0,
+    "severity_level": "LOW",
+    "threat_pests": [],
+    "pest_pressure_per_acre": 0.05,
+    "pest_data": {
+      "Whitefly": {
+        "count": 9.3,
+        "threshold": 10,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Jassid": {
+        "count": 0.0,
+        "threshold": 5,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Thrips": {
+        "count": 4.7,
+        "threshold": 20,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Mealy Bug": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Mites": {
+        "count": 0.0,
+        "threshold": 5,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Aphids": {
+        "count": 0.0,
+        "threshold": 10,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Dusky Cotton Bug": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Spotted Bollworm": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Pink Bollworm": {
+        "count": 0.0,
+        "threshold": 5,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "American Bollworm": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Army Worm": {
+        "count": 0.0,
+        "threshold": 3,
+        "status": "BELOW",
+        "percentage_above": 0
+      }
+    },
+    "disease_data": {
+      "CLCuV": {
+        "spot_infection": 0.0,
+        "area_infection": 0.0
+      },
+      "Wilt": {
+        "spot_infection": 0.0,
+        "area_infection": 0.0
+      }
+    }
+  },
+  "encoder_analysis": {
+    "risk_level": "LOW",
+    "primary_threats": [
+      "Whitefly"
+    ],
+    "secondary_concerns": [
+      "Thrips"
+    ],
+    "action_urgency": "MONITOR",
+    "economic_impact": "Estimated yield loss: 0-5%",
+    "key_insights": [
+      "Pest populations are generally low, with Whitefly being the most prevalent. Thrips population is also moderate.",
+      "Disease pressure is negligible, with no reported infections.",
+      "The overall risk level remains LOW due to the absence of significant pest or disease pressure."
+    ],
+    "farmer_advice": [
+      "Monitor fields regularly for any signs of Whitefly infestation and take action if necessary. Severity score: 0.0/30.",
+      "For Thrips management, consider using integrated pest management (IPM) strategies like crop rotation and biological control. Chemical controls can be used as a last resort.",
+      "Continue monitoring the fields and report any changes in pest pressure to the Punjab Agriculture Department for coordinated action."
+    ],
+    "_fallback": false
+  },
+  "metadata": {
+    "timestamp": "2025-10-30T04:55:02.511731",
+    "model": "llama3:8b",
+    "temperature": 0.1,
+    "total_spots": 43,
+    "total_area": 264.0,
+    "severity_score": 0.0,
+    "severity_level": "LOW"
+  },
+  "charts": {
+    "pest_comparison": "outputs/charts/pest_comparison_kehror_pacca_20251030_045502.png",
+    "severity_gauge": "outputs/charts/severity_gauge_kehror_pacca_20251030_045503.png",
+    "threat_pests": "outputs/charts/threat_pests_kehror_pacca_20251030_045503.png",
+    "disease": "outputs/charts/disease_rates_kehror_pacca_20251030_045503.png",
+    "dashboard": "outputs/charts/dashboard_kehror_pacca_20251030_045503.png"
+  },
+  "report_path": "outputs/reports/pest_report_kehror_pacca_20251030_045504.pdf"
+}

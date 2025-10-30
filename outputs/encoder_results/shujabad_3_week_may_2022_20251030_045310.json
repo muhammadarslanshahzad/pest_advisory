@@ -1,0 +1,132 @@
+{
+  "tehsil": "SHUJABAD",
+  "timeframe": "3 WEEK MAY 2022",
+  "context": {
+    "tehsil": "SHUJABAD",
+    "timeframe": "3 WEEK MAY 2022",
+    "total_spots": 26,
+    "total_area": 171.0,
+    "severity_score": 1.61,
+    "severity_level": "LOW",
+    "threat_pests": [],
+    "pest_pressure_per_acre": 0.13,
+    "pest_data": {
+      "Whitefly": {
+        "count": 3.8,
+        "threshold": 10,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Jassid": {
+        "count": 7.7,
+        "threshold": 5,
+        "status": "ABOVE",
+        "percentage_above": 54.0
+      },
+      "Thrips": {
+        "count": 3.8,
+        "threshold": 20,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Mealy Bug": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Mites": {
+        "count": 0.0,
+        "threshold": 5,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Aphids": {
+        "count": 3.8,
+        "threshold": 10,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Dusky Cotton Bug": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Spotted Bollworm": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Pink Bollworm": {
+        "count": 0.0,
+        "threshold": 5,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "American Bollworm": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Army Worm": {
+        "count": 3.8,
+        "threshold": 3,
+        "status": "ABOVE",
+        "percentage_above": 26.66666666666666
+      }
+    },
+    "disease_data": {
+      "CLCuV": {
+        "spot_infection": 0.0,
+        "area_infection": 0.0
+      },
+      "Wilt": {
+        "spot_infection": 0.0,
+        "area_infection": 0.0
+      }
+    }
+  },
+  "encoder_analysis": {
+    "risk_level": "LOW",
+    "primary_threats": [
+      "Jassid",
+      "Army Worm"
+    ],
+    "secondary_concerns": [
+      "Whitefly"
+    ],
+    "action_urgency": "THIS_WEEK",
+    "economic_impact": "Estimated yield loss: 5-10%",
+    "key_insights": [
+      "Pest population trends indicate a moderate increase in Jassid and Army Worm populations, warranting close monitoring.",
+      "Disease pressure remains low, with no reported infections.",
+      "The overall severity score of 1.61/30 suggests a relatively stable cotton pest situation."
+    ],
+    "farmer_advice": [
+      "Monitor fields closely for signs of Jassid and Army Worm infestations, as populations are above ETL thresholds.",
+      "Consider applying targeted insecticides to control Jassid and Army Worm populations, following IPM guidelines.",
+      "Coordinate with local agricultural experts to develop a comprehensive pest management plan, incorporating monitoring and control strategies."
+    ],
+    "_fallback": false
+  },
+  "metadata": {
+    "timestamp": "2025-10-30T04:53:05.512552",
+    "model": "llama3:8b",
+    "temperature": 0.1,
+    "total_spots": 26,
+    "total_area": 171.0,
+    "severity_score": 1.61,
+    "severity_level": "LOW"
+  },
+  "charts": {
+    "pest_comparison": "outputs/charts/pest_comparison_shujabad_20251030_045305.png",
+    "severity_gauge": "outputs/charts/severity_gauge_shujabad_20251030_045305.png",
+    "threat_pests": "outputs/charts/threat_pests_shujabad_20251030_045306.png",
+    "disease": "outputs/charts/disease_rates_shujabad_20251030_045306.png",
+    "dashboard": "outputs/charts/dashboard_shujabad_20251030_045306.png"
+  },
+  "report_path": "outputs/reports/pest_report_shujabad_20251030_045307.pdf"
+}

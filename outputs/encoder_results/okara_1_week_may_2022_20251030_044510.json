@@ -1,0 +1,139 @@
+{
+  "tehsil": "OKARA",
+  "timeframe": "1 WEEK MAY 2022",
+  "context": {
+    "tehsil": "OKARA",
+    "timeframe": "1 WEEK MAY 2022",
+    "total_spots": 19,
+    "total_area": 35.0,
+    "severity_score": 8.53,
+    "severity_level": "MEDIUM",
+    "threat_pests": [
+      {
+        "name": "Army Worm",
+        "column": "ARMY WORM(ABOVE ETL)",
+        "count": 15.8,
+        "threshold": 3,
+        "multiplier": 5.27,
+        "percentage_above": 426.6666666666667,
+        "severity": "CRITICAL"
+      }
+    ],
+    "pest_pressure_per_acre": 0.45,
+    "pest_data": {
+      "Whitefly": {
+        "count": 0.0,
+        "threshold": 10,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Jassid": {
+        "count": 0.0,
+        "threshold": 5,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Thrips": {
+        "count": 0.0,
+        "threshold": 20,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Mealy Bug": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Mites": {
+        "count": 0.0,
+        "threshold": 5,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Aphids": {
+        "count": 0.0,
+        "threshold": 10,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Dusky Cotton Bug": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Spotted Bollworm": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Pink Bollworm": {
+        "count": 0.0,
+        "threshold": 5,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "American Bollworm": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Army Worm": {
+        "count": 15.8,
+        "threshold": 3,
+        "status": "ABOVE",
+        "percentage_above": 426.6666666666667
+      }
+    },
+    "disease_data": {
+      "CLCuV": {
+        "spot_infection": 0.0,
+        "area_infection": 0.0
+      },
+      "Wilt": {
+        "spot_infection": 0.0,
+        "area_infection": 0.0
+      }
+    }
+  },
+  "encoder_analysis": {
+    "risk_level": "CRITICAL",
+    "primary_threats": [
+      "Army Worm"
+    ],
+    "secondary_concerns": [],
+    "action_urgency": "IMMEDIATE",
+    "economic_impact": "Estimated yield loss: 50-60%",
+    "key_insights": [
+      "The Army Worm population is alarmingly high, exceeding the ETL by 427%. This poses a significant threat to cotton yields.",
+      "Disease pressure remains low, with no reported infections of CLCuV or Wilt.",
+      "The overall severity score indicates a medium risk, but the critical threat from Army Worm justifies an immediate response."
+    ],
+    "farmer_advice": [
+      "Take IMMEDIATE action to control Army Worm infestations. Apply insecticides as per label instructions and monitor fields closely.",
+      "Consider using Integrated Pest Management (IPM) strategies to manage Army Worm populations, such as crop rotation, biological controls, or targeted chemical applications.",
+      "Coordinate with local agricultural experts and extension services to develop a comprehensive plan for managing the Army Worm threat. Monitor field conditions and adjust strategies accordingly."
+    ],
+    "_fallback": false
+  },
+  "metadata": {
+    "timestamp": "2025-10-30T04:45:05.586043",
+    "model": "llama3:8b",
+    "temperature": 0.1,
+    "total_spots": 19,
+    "total_area": 35.0,
+    "severity_score": 8.53,
+    "severity_level": "MEDIUM"
+  },
+  "charts": {
+    "pest_comparison": "outputs/charts/pest_comparison_okara_20251030_044505.png",
+    "severity_gauge": "outputs/charts/severity_gauge_okara_20251030_044506.png",
+    "threat_pests": "outputs/charts/threat_pests_okara_20251030_044506.png",
+    "disease": "outputs/charts/disease_rates_okara_20251030_044506.png",
+    "dashboard": "outputs/charts/dashboard_okara_20251030_044506.png"
+  },
+  "report_path": "outputs/reports/pest_report_okara_20251030_044507.pdf"
+}

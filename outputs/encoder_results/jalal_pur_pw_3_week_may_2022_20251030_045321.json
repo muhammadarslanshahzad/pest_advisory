@@ -1,0 +1,131 @@
+{
+  "tehsil": "JALAL PUR P.W",
+  "timeframe": "3 WEEK MAY 2022",
+  "context": {
+    "tehsil": "JALAL PUR P.W",
+    "timeframe": "3 WEEK MAY 2022",
+    "total_spots": 27,
+    "total_area": 215.0,
+    "severity_score": 0.96,
+    "severity_level": "LOW",
+    "threat_pests": [],
+    "pest_pressure_per_acre": 0.09,
+    "pest_data": {
+      "Whitefly": {
+        "count": 7.4,
+        "threshold": 10,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Jassid": {
+        "count": 7.4,
+        "threshold": 5,
+        "status": "ABOVE",
+        "percentage_above": 48.00000000000001
+      },
+      "Thrips": {
+        "count": 0.0,
+        "threshold": 20,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Mealy Bug": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Mites": {
+        "count": 0.0,
+        "threshold": 5,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Aphids": {
+        "count": 0.0,
+        "threshold": 10,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Dusky Cotton Bug": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Spotted Bollworm": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Pink Bollworm": {
+        "count": 3.7,
+        "threshold": 5,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "American Bollworm": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Army Worm": {
+        "count": 0.0,
+        "threshold": 3,
+        "status": "BELOW",
+        "percentage_above": 0
+      }
+    },
+    "disease_data": {
+      "CLCuV": {
+        "spot_infection": 0.0,
+        "area_infection": 0.0
+      },
+      "Wilt": {
+        "spot_infection": 0.0,
+        "area_infection": 0.0
+      }
+    }
+  },
+  "encoder_analysis": {
+    "risk_level": "LOW",
+    "primary_threats": [
+      "Jassid"
+    ],
+    "secondary_concerns": [
+      "Pink Bollworm"
+    ],
+    "action_urgency": "MONITOR",
+    "economic_impact": "Estimated yield loss: 5-10%",
+    "key_insights": [
+      "Pest population trends indicate a significant threat from Jassid, with 48% of the ETL threshold exceeded.",
+      "Disease pressure is low, with no infection rates reported for CLCuV and Wilt.",
+      "The overall severity score of 0.96/30 suggests a relatively low risk to cotton yields."
+    ],
+    "farmer_advice": [
+      "Monitor fields closely for Jassid infestations and consider applying targeted pesticides if necessary.",
+      "For Pink Bollworm, implement integrated pest management (IPM) strategies, including crop rotation and biological control methods. Chemical controls should be used judiciously and in accordance with ETL thresholds.",
+      "Coordinate with local agricultural extension services to stay informed about best practices for managing Jassid and other cotton pests."
+    ],
+    "_fallback": false
+  },
+  "metadata": {
+    "timestamp": "2025-10-30T04:53:16.654785",
+    "model": "llama3:8b",
+    "temperature": 0.1,
+    "total_spots": 27,
+    "total_area": 215.0,
+    "severity_score": 0.96,
+    "severity_level": "LOW"
+  },
+  "charts": {
+    "pest_comparison": "outputs/charts/pest_comparison_jalal_pur_pw_20251030_045316.png",
+    "severity_gauge": "outputs/charts/severity_gauge_jalal_pur_pw_20251030_045317.png",
+    "threat_pests": "outputs/charts/threat_pests_jalal_pur_pw_20251030_045317.png",
+    "disease": "outputs/charts/disease_rates_jalal_pur_pw_20251030_045317.png",
+    "dashboard": "outputs/charts/dashboard_jalal_pur_pw_20251030_045317.png"
+  },
+  "report_path": "outputs/reports/pest_report_jalal_pur_pw_20251030_045317.pdf"
+}

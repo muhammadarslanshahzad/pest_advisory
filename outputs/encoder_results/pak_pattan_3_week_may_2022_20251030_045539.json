@@ -1,0 +1,152 @@
+{
+  "tehsil": "PAK PATTAN",
+  "timeframe": "3 WEEK MAY 2022",
+  "context": {
+    "tehsil": "PAK PATTAN",
+    "timeframe": "3 WEEK MAY 2022",
+    "total_spots": 21,
+    "total_area": 117.0,
+    "severity_score": 10.33,
+    "severity_level": "MEDIUM",
+    "threat_pests": [
+      {
+        "name": "Army Worm",
+        "column": "ARMY WORM(ABOVE ETL)",
+        "count": 14.3,
+        "threshold": 3,
+        "multiplier": 4.77,
+        "percentage_above": 376.6666666666667,
+        "severity": "HIGH"
+      },
+      {
+        "name": "Dusky Cotton Bug",
+        "column": "DUSKY COTTON BUG(ABOVE ETL)",
+        "count": 4.8,
+        "threshold": 2,
+        "multiplier": 2.4,
+        "percentage_above": 140.0,
+        "severity": "HIGH"
+      }
+    ],
+    "pest_pressure_per_acre": 0.29,
+    "pest_data": {
+      "Whitefly": {
+        "count": 9.5,
+        "threshold": 10,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Jassid": {
+        "count": 4.8,
+        "threshold": 5,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Thrips": {
+        "count": 0.0,
+        "threshold": 20,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Mealy Bug": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Mites": {
+        "count": 0.0,
+        "threshold": 5,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Aphids": {
+        "count": 0.0,
+        "threshold": 10,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Dusky Cotton Bug": {
+        "count": 4.8,
+        "threshold": 2,
+        "status": "ABOVE",
+        "percentage_above": 140.0
+      },
+      "Spotted Bollworm": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Pink Bollworm": {
+        "count": 0.0,
+        "threshold": 5,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "American Bollworm": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Army Worm": {
+        "count": 14.3,
+        "threshold": 3,
+        "status": "ABOVE",
+        "percentage_above": 376.6666666666667
+      }
+    },
+    "disease_data": {
+      "CLCuV": {
+        "spot_infection": 0.0,
+        "area_infection": 0.0
+      },
+      "Wilt": {
+        "spot_infection": 0.0,
+        "area_infection": 0.0
+      }
+    }
+  },
+  "encoder_analysis": {
+    "risk_level": "HIGH",
+    "primary_threats": [
+      "Army Worm",
+      "Dusky Cotton Bug"
+    ],
+    "secondary_concerns": [
+      "Whitefly",
+      "Jassid"
+    ],
+    "action_urgency": "WITHIN_48H",
+    "economic_impact": "Estimated yield loss: 20-30%",
+    "key_insights": [
+      "Pest population trends indicate a significant increase in Army Worm and Dusky Cotton Bug, warranting immediate attention.",
+      "Disease pressure remains low, with no reported infections.",
+      "The economic impact of these pests could result in substantial yield losses."
+    ],
+    "farmer_advice": [
+      "Take immediate action to control Army Worm and Dusky Cotton Bug populations, as they are significantly above ETL thresholds. Monitor fields closely for signs of infestation.",
+      "Apply insecticides according to IPM guidelines to target these pests. Consider using biological controls or introducing natural predators.",
+      "Coordinate with local agricultural experts to develop a comprehensive management plan and monitor the situation closely."
+    ],
+    "_fallback": false
+  },
+  "metadata": {
+    "timestamp": "2025-10-30T04:55:34.781503",
+    "model": "llama3:8b",
+    "temperature": 0.1,
+    "total_spots": 21,
+    "total_area": 117.0,
+    "severity_score": 10.33,
+    "severity_level": "MEDIUM"
+  },
+  "charts": {
+    "pest_comparison": "outputs/charts/pest_comparison_pak_pattan_20251030_045534.png",
+    "severity_gauge": "outputs/charts/severity_gauge_pak_pattan_20251030_045535.png",
+    "threat_pests": "outputs/charts/threat_pests_pak_pattan_20251030_045535.png",
+    "disease": "outputs/charts/disease_rates_pak_pattan_20251030_045535.png",
+    "dashboard": "outputs/charts/dashboard_pak_pattan_20251030_045536.png"
+  },
+  "report_path": "outputs/reports/pest_report_pak_pattan_20251030_045536.pdf"
+}

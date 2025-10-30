@@ -1,0 +1,127 @@
+{
+  "tehsil": "MAILSI",
+  "timeframe": "1 WEEK MAY 2022",
+  "context": {
+    "tehsil": "MAILSI",
+    "timeframe": "1 WEEK MAY 2022",
+    "total_spots": 15,
+    "total_area": 145.0,
+    "severity_score": 0.0,
+    "severity_level": "LOW",
+    "threat_pests": [],
+    "pest_pressure_per_acre": 0.0,
+    "pest_data": {
+      "Whitefly": {
+        "count": 0.0,
+        "threshold": 10,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Jassid": {
+        "count": 0.0,
+        "threshold": 5,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Thrips": {
+        "count": 0.0,
+        "threshold": 20,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Mealy Bug": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Mites": {
+        "count": 0.0,
+        "threshold": 5,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Aphids": {
+        "count": 0.0,
+        "threshold": 10,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Dusky Cotton Bug": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Spotted Bollworm": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Pink Bollworm": {
+        "count": 0.0,
+        "threshold": 5,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "American Bollworm": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Army Worm": {
+        "count": 0.0,
+        "threshold": 3,
+        "status": "BELOW",
+        "percentage_above": 0
+      }
+    },
+    "disease_data": {
+      "CLCuV": {
+        "spot_infection": 0.0,
+        "area_infection": 0.0
+      },
+      "Wilt": {
+        "spot_infection": 0.0,
+        "area_infection": 0.0
+      }
+    }
+  },
+  "encoder_analysis": {
+    "risk_level": "LOW",
+    "primary_threats": [],
+    "secondary_concerns": [],
+    "action_urgency": "MONITOR",
+    "economic_impact": "0% estimated yield loss",
+    "key_insights": [
+      "Pest population trends indicate a low risk of infestation, with all pests below their respective ETL thresholds.",
+      "Disease pressure is also very low, with no infected spots or area reported for CLCuV and Wilt.",
+      "The overall severity score of 0.0/30 suggests that the cotton crop in Mailsi Tehsil is at a low risk of damage from pests and diseases."
+    ],
+    "farmer_advice": [
+      "Continue monitoring pest populations and disease pressure to ensure early detection of any potential issues.",
+      "No chemical applications are recommended at this time, as all pest counts are below their respective ETL thresholds. Focus on maintaining good agricultural practices and crop health.",
+      "Coordinate with local extension services for regular monitoring and reporting, and consider organizing farmer-to-farmer knowledge sharing to maintain a proactive approach to IPM."
+    ],
+    "_fallback": false
+  },
+  "metadata": {
+    "timestamp": "2025-10-30T04:43:33.135935",
+    "model": "llama3:8b",
+    "temperature": 0.1,
+    "total_spots": 15,
+    "total_area": 145.0,
+    "severity_score": 0.0,
+    "severity_level": "LOW"
+  },
+  "charts": {
+    "pest_comparison": "outputs/charts/pest_comparison_mailsi_20251030_044333.png",
+    "severity_gauge": "outputs/charts/severity_gauge_mailsi_20251030_044333.png",
+    "threat_pests": "outputs/charts/threat_pests_mailsi_20251030_044333.png",
+    "disease": "outputs/charts/disease_rates_mailsi_20251030_044334.png",
+    "dashboard": "outputs/charts/dashboard_mailsi_20251030_044334.png"
+  },
+  "report_path": "outputs/reports/pest_report_mailsi_20251030_044335.pdf"
+}

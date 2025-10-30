@@ -1,0 +1,130 @@
+{
+  "tehsil": "KHANEWAL",
+  "timeframe": "3 WEEK MAY 2022",
+  "context": {
+    "tehsil": "KHANEWAL",
+    "timeframe": "3 WEEK MAY 2022",
+    "total_spots": 36,
+    "total_area": 371.0,
+    "severity_score": 0.0,
+    "severity_level": "LOW",
+    "threat_pests": [],
+    "pest_pressure_per_acre": 0.02,
+    "pest_data": {
+      "Whitefly": {
+        "count": 0.0,
+        "threshold": 10,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Jassid": {
+        "count": 2.8,
+        "threshold": 5,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Thrips": {
+        "count": 2.8,
+        "threshold": 20,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Mealy Bug": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Mites": {
+        "count": 0.0,
+        "threshold": 5,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Aphids": {
+        "count": 0.0,
+        "threshold": 10,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Dusky Cotton Bug": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Spotted Bollworm": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Pink Bollworm": {
+        "count": 0.0,
+        "threshold": 5,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "American Bollworm": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Army Worm": {
+        "count": 0.0,
+        "threshold": 3,
+        "status": "BELOW",
+        "percentage_above": 0
+      }
+    },
+    "disease_data": {
+      "CLCuV": {
+        "spot_infection": 0.0,
+        "area_infection": 0.0
+      },
+      "Wilt": {
+        "spot_infection": 0.0,
+        "area_infection": 0.0
+      }
+    }
+  },
+  "encoder_analysis": {
+    "risk_level": "LOW",
+    "primary_threats": [
+      "Jassid",
+      "Thrips"
+    ],
+    "secondary_concerns": [],
+    "action_urgency": "MONITOR",
+    "economic_impact": "Estimated yield loss: 0-5%",
+    "key_insights": [
+      "Pest populations are below threshold levels, indicating a low risk of economic damage.",
+      "Disease pressure is negligible, with no infected spots or area reported.",
+      "The overall severity score remains LOW due to the absence of ETL violations."
+    ],
+    "farmer_advice": [
+      "Monitor your fields regularly for any signs of pest infestation and adjust your IPM strategy accordingly.",
+      "Continue using integrated pest management (IPM) techniques, such as crop rotation and biological control methods, to maintain a low pest pressure.",
+      "Coordinate with local agricultural experts or extension services to stay updated on the latest best practices in cotton pest management."
+    ],
+    "_fallback": false
+  },
+  "metadata": {
+    "timestamp": "2025-10-30T04:53:26.086462",
+    "model": "llama3:8b",
+    "temperature": 0.1,
+    "total_spots": 36,
+    "total_area": 371.0,
+    "severity_score": 0.0,
+    "severity_level": "LOW"
+  },
+  "charts": {
+    "pest_comparison": "outputs/charts/pest_comparison_khanewal_20251030_045326.png",
+    "severity_gauge": "outputs/charts/severity_gauge_khanewal_20251030_045326.png",
+    "threat_pests": "outputs/charts/threat_pests_khanewal_20251030_045326.png",
+    "disease": "outputs/charts/disease_rates_khanewal_20251030_045326.png",
+    "dashboard": "outputs/charts/dashboard_khanewal_20251030_045327.png"
+  },
+  "report_path": "outputs/reports/pest_report_khanewal_20251030_045327.pdf"
+}

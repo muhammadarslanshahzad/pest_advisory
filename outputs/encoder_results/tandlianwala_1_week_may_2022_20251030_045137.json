@@ -1,0 +1,139 @@
+{
+  "tehsil": "TANDLIANWALA",
+  "timeframe": "1 WEEK MAY 2022",
+  "context": {
+    "tehsil": "TANDLIANWALA",
+    "timeframe": "1 WEEK MAY 2022",
+    "total_spots": 15,
+    "total_area": 33.0,
+    "severity_score": 2.47,
+    "severity_level": "LOW",
+    "threat_pests": [
+      {
+        "name": "Army Worm",
+        "column": "ARMY WORM(ABOVE ETL)",
+        "count": 6.7,
+        "threshold": 3,
+        "multiplier": 2.23,
+        "percentage_above": 123.33333333333334,
+        "severity": "HIGH"
+      }
+    ],
+    "pest_pressure_per_acre": 0.2,
+    "pest_data": {
+      "Whitefly": {
+        "count": 0.0,
+        "threshold": 10,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Jassid": {
+        "count": 0.0,
+        "threshold": 5,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Thrips": {
+        "count": 0.0,
+        "threshold": 20,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Mealy Bug": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Mites": {
+        "count": 0.0,
+        "threshold": 5,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Aphids": {
+        "count": 0.0,
+        "threshold": 10,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Dusky Cotton Bug": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Spotted Bollworm": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Pink Bollworm": {
+        "count": 0.0,
+        "threshold": 5,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "American Bollworm": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Army Worm": {
+        "count": 6.7,
+        "threshold": 3,
+        "status": "ABOVE",
+        "percentage_above": 123.33333333333334
+      }
+    },
+    "disease_data": {
+      "CLCuV": {
+        "spot_infection": 0.0,
+        "area_infection": 0.0
+      },
+      "Wilt": {
+        "spot_infection": 0.0,
+        "area_infection": 0.0
+      }
+    }
+  },
+  "encoder_analysis": {
+    "risk_level": "LOW",
+    "primary_threats": [
+      "Army Worm"
+    ],
+    "secondary_concerns": [],
+    "action_urgency": "THIS_WEEK",
+    "economic_impact": "Estimated yield loss: 0-5%",
+    "key_insights": [
+      "Pest population trends indicate a potential surge in Army Worm numbers, warranting close monitoring.",
+      "Disease pressure remains low across all surveyed spots.",
+      "The overall economic risk is relatively low due to the absence of significant pest or disease pressures."
+    ],
+    "farmer_advice": [
+      "Monitor cotton fields closely for signs of Army Worm infestation and take prompt action if necessary.",
+      "Consider applying targeted pesticides or biological controls to manage Army Worm populations, following recommended ETL thresholds.",
+      "Coordinate with local agricultural experts and extension services to stay informed about best practices in integrated pest management (IPM) and receive timely updates on pest population trends."
+    ],
+    "_fallback": false
+  },
+  "metadata": {
+    "timestamp": "2025-10-30T04:51:32.541568",
+    "model": "llama3:8b",
+    "temperature": 0.1,
+    "total_spots": 15,
+    "total_area": 33.0,
+    "severity_score": 2.47,
+    "severity_level": "LOW"
+  },
+  "charts": {
+    "pest_comparison": "outputs/charts/pest_comparison_tandlianwala_20251030_045132.png",
+    "severity_gauge": "outputs/charts/severity_gauge_tandlianwala_20251030_045132.png",
+    "threat_pests": "outputs/charts/threat_pests_tandlianwala_20251030_045133.png",
+    "disease": "outputs/charts/disease_rates_tandlianwala_20251030_045133.png",
+    "dashboard": "outputs/charts/dashboard_tandlianwala_20251030_045134.png"
+  },
+  "report_path": "outputs/reports/pest_report_tandlianwala_20251030_045134.pdf"
+}

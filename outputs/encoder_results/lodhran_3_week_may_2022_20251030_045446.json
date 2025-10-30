@@ -1,0 +1,129 @@
+{
+  "tehsil": "LODHRAN",
+  "timeframe": "3 WEEK MAY 2022",
+  "context": {
+    "tehsil": "LODHRAN",
+    "timeframe": "3 WEEK MAY 2022",
+    "total_spots": 42,
+    "total_area": 231.0,
+    "severity_score": 0.0,
+    "severity_level": "LOW",
+    "threat_pests": [],
+    "pest_pressure_per_acre": 0.01,
+    "pest_data": {
+      "Whitefly": {
+        "count": 0.0,
+        "threshold": 10,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Jassid": {
+        "count": 0.0,
+        "threshold": 5,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Thrips": {
+        "count": 0.0,
+        "threshold": 20,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Mealy Bug": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Mites": {
+        "count": 0.0,
+        "threshold": 5,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Aphids": {
+        "count": 2.4,
+        "threshold": 10,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Dusky Cotton Bug": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Spotted Bollworm": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Pink Bollworm": {
+        "count": 0.0,
+        "threshold": 5,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "American Bollworm": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Army Worm": {
+        "count": 0.0,
+        "threshold": 3,
+        "status": "BELOW",
+        "percentage_above": 0
+      }
+    },
+    "disease_data": {
+      "CLCuV": {
+        "spot_infection": 0.0,
+        "area_infection": 0.0
+      },
+      "Wilt": {
+        "spot_infection": 0.0,
+        "area_infection": 0.0
+      }
+    }
+  },
+  "encoder_analysis": {
+    "risk_level": "LOW",
+    "primary_threats": [
+      "Aphids"
+    ],
+    "secondary_concerns": [],
+    "action_urgency": "MONITOR",
+    "economic_impact": "Estimated yield loss: 0-5%",
+    "key_insights": [
+      "Pest population trends indicate a low risk of infestation, with no significant threats detected.",
+      "Disease pressure is also low, with no infected spots or area reported.",
+      "The overall economic impact is minimal, with estimated yield loss within the normal range."
+    ],
+    "farmer_advice": [
+      "Monitor your cotton fields regularly to detect any potential infestations early on. This will help prevent the spread of pests and minimize damage.",
+      "For aphid control, consider using integrated pest management (IPM) techniques such as introducing natural predators or using targeted pesticides. Monitor ETL thresholds for any violations.",
+      "Coordinate with local agricultural experts and extension services to stay informed about best practices for cotton cultivation in your area."
+    ],
+    "_fallback": false
+  },
+  "metadata": {
+    "timestamp": "2025-10-30T04:54:40.304307",
+    "model": "llama3:8b",
+    "temperature": 0.1,
+    "total_spots": 42,
+    "total_area": 231.0,
+    "severity_score": 0.0,
+    "severity_level": "LOW"
+  },
+  "charts": {
+    "pest_comparison": "outputs/charts/pest_comparison_lodhran_20251030_045440.png",
+    "severity_gauge": "outputs/charts/severity_gauge_lodhran_20251030_045440.png",
+    "threat_pests": "outputs/charts/threat_pests_lodhran_20251030_045440.png",
+    "disease": "outputs/charts/disease_rates_lodhran_20251030_045441.png",
+    "dashboard": "outputs/charts/dashboard_lodhran_20251030_045441.png"
+  },
+  "report_path": "outputs/reports/pest_report_lodhran_20251030_045442.pdf"
+}

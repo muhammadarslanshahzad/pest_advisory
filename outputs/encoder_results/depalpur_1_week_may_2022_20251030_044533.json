@@ -1,0 +1,139 @@
+{
+  "tehsil": "DEPALPUR",
+  "timeframe": "1 WEEK MAY 2022",
+  "context": {
+    "tehsil": "DEPALPUR",
+    "timeframe": "1 WEEK MAY 2022",
+    "total_spots": 11,
+    "total_area": 79.0,
+    "severity_score": 10.0,
+    "severity_level": "MEDIUM",
+    "threat_pests": [
+      {
+        "name": "Army Worm",
+        "column": "ARMY WORM(ABOVE ETL)",
+        "count": 18.2,
+        "threshold": 3,
+        "multiplier": 6.07,
+        "percentage_above": 506.66666666666663,
+        "severity": "CRITICAL"
+      }
+    ],
+    "pest_pressure_per_acre": 0.23,
+    "pest_data": {
+      "Whitefly": {
+        "count": 0.0,
+        "threshold": 10,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Jassid": {
+        "count": 0.0,
+        "threshold": 5,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Thrips": {
+        "count": 0.0,
+        "threshold": 20,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Mealy Bug": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Mites": {
+        "count": 0.0,
+        "threshold": 5,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Aphids": {
+        "count": 0.0,
+        "threshold": 10,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Dusky Cotton Bug": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Spotted Bollworm": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Pink Bollworm": {
+        "count": 0.0,
+        "threshold": 5,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "American Bollworm": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Army Worm": {
+        "count": 18.2,
+        "threshold": 3,
+        "status": "ABOVE",
+        "percentage_above": 506.66666666666663
+      }
+    },
+    "disease_data": {
+      "CLCuV": {
+        "spot_infection": 0.0,
+        "area_infection": 0.0
+      },
+      "Wilt": {
+        "spot_infection": 0.0,
+        "area_infection": 0.0
+      }
+    }
+  },
+  "encoder_analysis": {
+    "risk_level": "HIGH",
+    "primary_threats": [
+      "Army Worm"
+    ],
+    "secondary_concerns": [],
+    "action_urgency": "IMMEDIATE",
+    "economic_impact": "Estimated yield loss: 15-25%",
+    "key_insights": [
+      "The Army Worm population is significantly above the ETL threshold, indicating a high risk of crop damage.",
+      "Disease pressure remains low, with no reported infections in the surveyed area.",
+      "The economic impact of this pest infestation could be substantial, warranting immediate action."
+    ],
+    "farmer_advice": [
+      "Take immediate action to control Army Worm populations, as they can cause significant yield loss. Consider using integrated pest management (IPM) strategies or chemical controls as needed.",
+      "Monitor your fields closely for signs of Army Worm infestation and take prompt action to prevent further damage. Coordinate with local agricultural experts if necessary.",
+      "Regularly inspect your crops for signs of disease infection, such as CLCuV or Wilt, and report any findings to the Punjab Agriculture Department."
+    ],
+    "_fallback": false
+  },
+  "metadata": {
+    "timestamp": "2025-10-30T04:45:28.013673",
+    "model": "llama3:8b",
+    "temperature": 0.1,
+    "total_spots": 11,
+    "total_area": 79.0,
+    "severity_score": 10.0,
+    "severity_level": "MEDIUM"
+  },
+  "charts": {
+    "pest_comparison": "outputs/charts/pest_comparison_depalpur_20251030_044528.png",
+    "severity_gauge": "outputs/charts/severity_gauge_depalpur_20251030_044528.png",
+    "threat_pests": "outputs/charts/threat_pests_depalpur_20251030_044528.png",
+    "disease": "outputs/charts/disease_rates_depalpur_20251030_044529.png",
+    "dashboard": "outputs/charts/dashboard_depalpur_20251030_044529.png"
+  },
+  "report_path": "outputs/reports/pest_report_depalpur_20251030_044530.pdf"
+}

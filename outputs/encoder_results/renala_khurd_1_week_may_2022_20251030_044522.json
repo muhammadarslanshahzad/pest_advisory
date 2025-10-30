@@ -1,0 +1,139 @@
+{
+  "tehsil": "RENALA KHURD",
+  "timeframe": "1 WEEK MAY 2022",
+  "context": {
+    "tehsil": "RENALA KHURD",
+    "timeframe": "1 WEEK MAY 2022",
+    "total_spots": 9,
+    "total_area": 24.0,
+    "severity_score": 10.0,
+    "severity_level": "MEDIUM",
+    "threat_pests": [
+      {
+        "name": "Army Worm",
+        "column": "ARMY WORM(ABOVE ETL)",
+        "count": 22.2,
+        "threshold": 3,
+        "multiplier": 7.4,
+        "percentage_above": 640.0,
+        "severity": "CRITICAL"
+      }
+    ],
+    "pest_pressure_per_acre": 0.93,
+    "pest_data": {
+      "Whitefly": {
+        "count": 0.0,
+        "threshold": 10,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Jassid": {
+        "count": 0.0,
+        "threshold": 5,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Thrips": {
+        "count": 0.0,
+        "threshold": 20,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Mealy Bug": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Mites": {
+        "count": 0.0,
+        "threshold": 5,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Aphids": {
+        "count": 0.0,
+        "threshold": 10,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Dusky Cotton Bug": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Spotted Bollworm": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Pink Bollworm": {
+        "count": 0.0,
+        "threshold": 5,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "American Bollworm": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Army Worm": {
+        "count": 22.2,
+        "threshold": 3,
+        "status": "ABOVE",
+        "percentage_above": 640.0
+      }
+    },
+    "disease_data": {
+      "CLCuV": {
+        "spot_infection": 0.0,
+        "area_infection": 0.0
+      },
+      "Wilt": {
+        "spot_infection": 0.0,
+        "area_infection": 0.0
+      }
+    }
+  },
+  "encoder_analysis": {
+    "risk_level": "HIGH",
+    "primary_threats": [
+      "Army Worm"
+    ],
+    "secondary_concerns": [],
+    "action_urgency": "IMMEDIATE",
+    "economic_impact": "Estimated yield loss: 30-40%",
+    "key_insights": [
+      "The Army Worm population is significantly above the Economic Threshold Level (ETL), indicating a high risk of crop damage.",
+      "Disease pressure remains low, with no reported infections in the surveyed area.",
+      "The overall severity score indicates a medium-level threat, but the critical Army Worm infestation warrants immediate attention."
+    ],
+    "farmer_advice": [
+      "Take immediate action to control the Army Worm population to prevent significant yield loss. Consider applying insecticides or using biological controls as per IPM guidelines.",
+      "Implement integrated pest management (IPM) strategies to reduce the Army Worm population, including crop rotation, resistant varieties, and targeted pesticide applications.",
+      "Monitor the situation closely and coordinate with local agricultural experts to develop a comprehensive plan for managing the Army Worm infestation."
+    ],
+    "_fallback": false
+  },
+  "metadata": {
+    "timestamp": "2025-10-30T04:45:16.349764",
+    "model": "llama3:8b",
+    "temperature": 0.1,
+    "total_spots": 9,
+    "total_area": 24.0,
+    "severity_score": 10.0,
+    "severity_level": "MEDIUM"
+  },
+  "charts": {
+    "pest_comparison": "outputs/charts/pest_comparison_renala_khurd_20251030_044516.png",
+    "severity_gauge": "outputs/charts/severity_gauge_renala_khurd_20251030_044516.png",
+    "threat_pests": "outputs/charts/threat_pests_renala_khurd_20251030_044516.png",
+    "disease": "outputs/charts/disease_rates_renala_khurd_20251030_044517.png",
+    "dashboard": "outputs/charts/dashboard_renala_khurd_20251030_044517.png"
+  },
+  "report_path": "outputs/reports/pest_report_renala_khurd_20251030_044518.pdf"
+}

@@ -1,0 +1,126 @@
+{
+  "tehsil": "CHOBARA",
+  "timeframe": "1 WEEK MAY 2022",
+  "context": {
+    "tehsil": "CHOBARA",
+    "timeframe": "1 WEEK MAY 2022",
+    "total_spots": 25,
+    "total_area": 73.0,
+    "severity_score": 0.0,
+    "severity_level": "LOW",
+    "threat_pests": [],
+    "pest_pressure_per_acre": 0.0,
+    "pest_data": {
+      "Whitefly": {
+        "count": 0.0,
+        "threshold": 10,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Jassid": {
+        "count": 0.0,
+        "threshold": 5,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Thrips": {
+        "count": 0.0,
+        "threshold": 20,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Mealy Bug": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Mites": {
+        "count": 0.0,
+        "threshold": 5,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Aphids": {
+        "count": 0.0,
+        "threshold": 10,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Dusky Cotton Bug": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Spotted Bollworm": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Pink Bollworm": {
+        "count": 0.0,
+        "threshold": 5,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "American Bollworm": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Army Worm": {
+        "count": 0.0,
+        "threshold": 3,
+        "status": "BELOW",
+        "percentage_above": 0
+      }
+    },
+    "disease_data": {
+      "CLCuV": {
+        "spot_infection": 0.0,
+        "area_infection": 0.0
+      },
+      "Wilt": {
+        "spot_infection": 0.0,
+        "area_infection": 0.0
+      }
+    }
+  },
+  "encoder_analysis": {
+    "risk_level": "LOW",
+    "primary_threats": [],
+    "secondary_concerns": [],
+    "action_urgency": "MONITOR",
+    "economic_impact": "0% estimated yield loss",
+    "key_insights": [
+      "No significant pest populations or disease pressure were detected in the surveyed area.",
+      "The low severity and absence of pests/diseases indicate a stable cotton crop health."
+    ],
+    "farmer_advice": [
+      "Continue monitoring for any changes in pest populations or disease pressure, as this could impact yield quality.",
+      "No chemical applications are recommended at this time. Focus on maintaining good agricultural practices and monitoring the crop regularly.",
+      "Coordinate with local extension services to stay informed about any potential threats and adjust management strategies accordingly."
+    ],
+    "_fallback": false
+  },
+  "metadata": {
+    "timestamp": "2025-10-30T04:49:15.642768",
+    "model": "llama3:8b",
+    "temperature": 0.1,
+    "total_spots": 25,
+    "total_area": 73.0,
+    "severity_score": 0.0,
+    "severity_level": "LOW"
+  },
+  "charts": {
+    "pest_comparison": "outputs/charts/pest_comparison_chobara_20251030_044915.png",
+    "severity_gauge": "outputs/charts/severity_gauge_chobara_20251030_044916.png",
+    "threat_pests": "outputs/charts/threat_pests_chobara_20251030_044916.png",
+    "disease": "outputs/charts/disease_rates_chobara_20251030_044916.png",
+    "dashboard": "outputs/charts/dashboard_chobara_20251030_044916.png"
+  },
+  "report_path": "outputs/reports/pest_report_chobara_20251030_044917.pdf"
+}

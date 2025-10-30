@@ -1,0 +1,130 @@
+{
+  "tehsil": "YAZMAN",
+  "timeframe": "1 WEEK MAY 2022",
+  "context": {
+    "tehsil": "YAZMAN",
+    "timeframe": "1 WEEK MAY 2022",
+    "total_spots": 12,
+    "total_area": 45.0,
+    "severity_score": 0.0,
+    "severity_level": "LOW",
+    "threat_pests": [],
+    "pest_pressure_per_acre": 0.0,
+    "pest_data": {
+      "Whitefly": {
+        "count": 0.0,
+        "threshold": 10,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Jassid": {
+        "count": 0.0,
+        "threshold": 5,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Thrips": {
+        "count": 0.0,
+        "threshold": 20,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Mealy Bug": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Mites": {
+        "count": 0.0,
+        "threshold": 5,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Aphids": {
+        "count": 0.0,
+        "threshold": 10,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Dusky Cotton Bug": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Spotted Bollworm": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Pink Bollworm": {
+        "count": 0.0,
+        "threshold": 5,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "American Bollworm": {
+        "count": 0.0,
+        "threshold": 2,
+        "status": "BELOW",
+        "percentage_above": 0
+      },
+      "Army Worm": {
+        "count": 0.0,
+        "threshold": 3,
+        "status": "BELOW",
+        "percentage_above": 0
+      }
+    },
+    "disease_data": {
+      "CLCuV": {
+        "spot_infection": 0.0,
+        "area_infection": 0.0
+      },
+      "Wilt": {
+        "spot_infection": 0.0,
+        "area_infection": 0.0
+      }
+    }
+  },
+  "encoder_analysis": {
+    "risk_level": "LOW",
+    "primary_threats": [],
+    "secondary_concerns": [
+      "Whitefly",
+      "Jassid"
+    ],
+    "action_urgency": "MONITOR",
+    "economic_impact": "0-5% estimated yield loss",
+    "key_insights": [
+      "Pest populations are extremely low, indicating a favorable situation for cotton crops.",
+      "Disease pressure is also negligible, with no reported infections in the surveyed area.",
+      "The overall risk level remains LOW due to the absence of significant pest or disease threats."
+    ],
+    "farmer_advice": [
+      "Continue monitoring fields regularly and maintain good agricultural practices to ensure the low-risk situation persists.",
+      "Consider implementing Integrated Pest Management (IPM) strategies, such as crop rotation and biological control methods, to further minimize potential threats.",
+      "Coordinate with local extension services or experts for guidance on best management practices and potential pest/disease surveillance programs."
+    ],
+    "_fallback": false
+  },
+  "metadata": {
+    "timestamp": "2025-10-30T04:45:58.991691",
+    "model": "llama3:8b",
+    "temperature": 0.1,
+    "total_spots": 12,
+    "total_area": 45.0,
+    "severity_score": 0.0,
+    "severity_level": "LOW"
+  },
+  "charts": {
+    "pest_comparison": "outputs/charts/pest_comparison_yazman_20251030_044559.png",
+    "severity_gauge": "outputs/charts/severity_gauge_yazman_20251030_044559.png",
+    "threat_pests": "outputs/charts/threat_pests_yazman_20251030_044559.png",
+    "disease": "outputs/charts/disease_rates_yazman_20251030_044600.png",
+    "dashboard": "outputs/charts/dashboard_yazman_20251030_044600.png"
+  },
+  "report_path": "outputs/reports/pest_report_yazman_20251030_044600.pdf"
+}
