@@ -179,11 +179,11 @@ Dashboard capabilities:
 
 - Pest vs ETL comparison
 
-  ![Pest Comparison](outputs/charts/pest_comparison_pest_comparison_sahiwal_20251030_044421.png)
+  ![Pest Comparison](outputs/charts/pest_comparison_sahiwal_20251030_044421.png)
 
 - Generated PDF report (downloadable example)
 
-  [`outputs/reports/pest_report_sahiwal_20251030_044422.pdf`](outputs/reports/pest_report_sahiwal_20251030_044423.pdf)
+  [`outputs/reports/pest_report_sahiwal_20251030_044423.pdf`](outputs/reports/pest_report_sahiwal_20251030_044423.pdf)
 
 ---
 
